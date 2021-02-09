@@ -244,7 +244,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="134-19-Yjv">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="650"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color Mode" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="be8-Zv-4Sd">
                                                 <rect key="frame" x="20" y="95" width="128" height="31"/>
@@ -401,7 +401,7 @@
                                             <constraint firstItem="HC1-Ir-dQG" firstAttribute="leading" secondItem="134-19-Yjv" secondAttribute="leading" constant="35" id="iKZ-sb-iTw"/>
                                             <constraint firstItem="Zt1-Eg-4cj" firstAttribute="top" secondItem="Rep-cg-aSi" secondAttribute="bottom" constant="13" id="imL-ai-C2N"/>
                                             <constraint firstItem="Rep-cg-aSi" firstAttribute="leading" secondItem="134-19-Yjv" secondAttribute="leading" constant="20" id="p5K-2v-5Wo"/>
-                                            <constraint firstAttribute="height" constant="800" id="pKe-KG-XOJ"/>
+                                            <constraint firstAttribute="height" constant="650" id="pKe-KG-XOJ"/>
                                             <constraint firstItem="zR5-qj-BIC" firstAttribute="top" secondItem="Rep-cg-aSi" secondAttribute="bottom" constant="10" id="ra1-xE-d8C"/>
                                             <constraint firstItem="NIH-SB-Baw" firstAttribute="top" secondItem="MvJ-Bu-Kjc" secondAttribute="bottom" constant="27" id="vaR-mp-WGs"/>
                                             <constraint firstItem="2gW-5b-4oF" firstAttribute="top" secondItem="Zt1-Eg-4cj" secondAttribute="bottom" constant="27" id="wrt-L2-RmK"/>
