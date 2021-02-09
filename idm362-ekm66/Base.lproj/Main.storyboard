@@ -50,30 +50,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Greek" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EbV-9f-HJQ">
-                                <rect key="frame" x="20" y="342" width="46" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Indian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chx-uc-QoZ">
-                                <rect key="frame" x="20" y="393" width="46" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Italian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZK-mD-QJn">
-                                <rect key="frame" x="20" y="444" width="45" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Japanese" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaO-Mp-Q2T">
-                                <rect key="frame" x="20" y="495" width="74" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Color Theme" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62K-1t-0T9">
                                 <rect key="frame" x="117.5" y="20" width="140" height="29"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
@@ -100,74 +76,112 @@
                                 <rect key="frame" x="306" y="286" width="51" height="31"/>
                                 <color key="onTintColor" name="AccentDark"/>
                             </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="System Theme Toggle" translatesAutoresizingMaskIntoConstraints="NO" id="lxN-0a-oCZ">
-                                <rect key="frame" x="306" y="337" width="51" height="31"/>
-                                <color key="onTintColor" name="AccentDark"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="System Theme Toggle" translatesAutoresizingMaskIntoConstraints="NO" id="lWu-0C-snG">
-                                <rect key="frame" x="306" y="388" width="51" height="31"/>
-                                <color key="onTintColor" name="AccentDark"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="System Theme Toggle" translatesAutoresizingMaskIntoConstraints="NO" id="za3-FU-7WZ">
-                                <rect key="frame" x="306" y="439" width="51" height="31"/>
-                                <color key="onTintColor" name="AccentDark"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="System Theme Toggle" translatesAutoresizingMaskIntoConstraints="NO" id="tcF-Yb-xeZ">
-                                <rect key="frame" x="306" y="490" width="51" height="31"/>
-                                <color key="onTintColor" name="AccentDark"/>
-                            </switch>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="System Theme Toggle" translatesAutoresizingMaskIntoConstraints="NO" id="YwH-sS-6pE">
-                                <rect key="frame" x="306" y="541" width="51" height="31"/>
-                                <color key="onTintColor" name="AccentDark"/>
-                            </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mexican" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGE-ii-XfE">
-                                <rect key="frame" x="20" y="546" width="64" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="French" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vRH-JO-TZ7">
+                                <rect key="frame" x="20" y="342" width="53" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="System Theme Toggle" translatesAutoresizingMaskIntoConstraints="NO" id="DDH-hm-jjQ">
+                                <rect key="frame" x="306" y="337" width="51" height="31"/>
+                                <color key="onTintColor" name="AccentDark"/>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Greek" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EbV-9f-HJQ">
+                                <rect key="frame" x="20" y="393" width="46" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Indian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="chx-uc-QoZ">
+                                <rect key="frame" x="20" y="444" width="46" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Italian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pZK-mD-QJn">
+                                <rect key="frame" x="20" y="495" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Japanese" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaO-Mp-Q2T">
+                                <rect key="frame" x="20" y="546" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mexican" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NGE-ii-XfE">
+                                <rect key="frame" x="20" y="597" width="64" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="System Theme Toggle" translatesAutoresizingMaskIntoConstraints="NO" id="RE1-xU-m0F">
+                                <rect key="frame" x="306" y="388" width="51" height="31"/>
+                                <color key="onTintColor" name="AccentDark"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="System Theme Toggle" translatesAutoresizingMaskIntoConstraints="NO" id="Ad4-va-1MZ">
+                                <rect key="frame" x="306" y="439" width="51" height="31"/>
+                                <color key="onTintColor" name="AccentDark"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="System Theme Toggle" translatesAutoresizingMaskIntoConstraints="NO" id="RsG-hj-YmI">
+                                <rect key="frame" x="306" y="490" width="51" height="31"/>
+                                <color key="onTintColor" name="AccentDark"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="System Theme Toggle" translatesAutoresizingMaskIntoConstraints="NO" id="g6O-9Y-o40">
+                                <rect key="frame" x="306" y="541" width="51" height="31"/>
+                                <color key="onTintColor" name="AccentDark"/>
+                            </switch>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="System Theme Toggle" translatesAutoresizingMaskIntoConstraints="NO" id="sFh-7j-Shm">
+                                <rect key="frame" x="306" y="592" width="51" height="31"/>
+                                <color key="onTintColor" name="AccentDark"/>
+                            </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9Rt-Fl-P5M"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="9Rt-Fl-P5M" firstAttribute="trailing" secondItem="za3-FU-7WZ" secondAttribute="trailing" constant="20" id="1RW-yu-zzt"/>
-                            <constraint firstItem="lWu-0C-snG" firstAttribute="top" secondItem="lxN-0a-oCZ" secondAttribute="bottom" constant="20" id="8Md-lm-Dxe"/>
+                            <constraint firstItem="9Rt-Fl-P5M" firstAttribute="trailing" secondItem="g6O-9Y-o40" secondAttribute="trailing" constant="20" id="3eR-Wo-K7M"/>
+                            <constraint firstItem="DDH-hm-jjQ" firstAttribute="top" secondItem="cIa-9H-efI" secondAttribute="bottom" constant="20" id="8WL-Kh-aSI"/>
                             <constraint firstItem="7sm-lW-vyy" firstAttribute="top" secondItem="aVv-ju-Fsn" secondAttribute="bottom" constant="30" id="AGb-WI-Kls"/>
+                            <constraint firstItem="sFh-7j-Shm" firstAttribute="top" secondItem="g6O-9Y-o40" secondAttribute="bottom" constant="20" id="BOx-Jf-Wtc"/>
                             <constraint firstItem="wWT-jA-VIM" firstAttribute="top" secondItem="TLb-jK-nBI" secondAttribute="bottom" constant="25" id="DTe-Qn-VVW"/>
+                            <constraint firstItem="9Rt-Fl-P5M" firstAttribute="trailing" secondItem="Ad4-va-1MZ" secondAttribute="trailing" constant="20" id="DUo-14-8n7"/>
                             <constraint firstItem="9Rt-Fl-P5M" firstAttribute="trailing" secondItem="FuF-1i-uMf" secondAttribute="trailing" constant="20" id="EEX-UK-99X"/>
                             <constraint firstItem="9Rt-Fl-P5M" firstAttribute="trailing" secondItem="I5K-E0-l26" secondAttribute="trailing" constant="20" id="Ezu-Oh-xKO"/>
-                            <constraint firstItem="9Rt-Fl-P5M" firstAttribute="trailing" secondItem="lWu-0C-snG" secondAttribute="trailing" constant="20" id="FFu-lV-J6Z"/>
                             <constraint firstItem="FuF-1i-uMf" firstAttribute="top" secondItem="62K-1t-0T9" secondAttribute="bottom" constant="15" id="GIo-Kh-OhL"/>
-                            <constraint firstItem="za3-FU-7WZ" firstAttribute="top" secondItem="lWu-0C-snG" secondAttribute="bottom" constant="20" id="GLQ-08-B65"/>
                             <constraint firstItem="jaO-Mp-Q2T" firstAttribute="top" secondItem="pZK-mD-QJn" secondAttribute="bottom" constant="30" id="Gka-JK-uxB"/>
                             <constraint firstItem="aVv-ju-Fsn" firstAttribute="top" secondItem="62K-1t-0T9" secondAttribute="bottom" constant="20" id="JVD-Cb-eKc"/>
-                            <constraint firstItem="9Rt-Fl-P5M" firstAttribute="trailing" secondItem="tcF-Yb-xeZ" secondAttribute="trailing" constant="20" id="JsH-nj-I4C"/>
-                            <constraint firstItem="lxN-0a-oCZ" firstAttribute="top" secondItem="cIa-9H-efI" secondAttribute="bottom" constant="20" id="Mpj-mT-Got"/>
+                            <constraint firstItem="9Rt-Fl-P5M" firstAttribute="trailing" secondItem="sFh-7j-Shm" secondAttribute="trailing" constant="20" id="Kv6-zr-DsV"/>
                             <constraint firstItem="aVv-ju-Fsn" firstAttribute="leading" secondItem="9Rt-Fl-P5M" secondAttribute="leading" constant="20" id="Q3R-Tv-qeg"/>
+                            <constraint firstItem="9Rt-Fl-P5M" firstAttribute="trailing" secondItem="RsG-hj-YmI" secondAttribute="trailing" constant="20" id="Sf8-G4-TdU"/>
+                            <constraint firstItem="vRH-JO-TZ7" firstAttribute="leading" secondItem="9Rt-Fl-P5M" secondAttribute="leading" constant="20" id="TCH-hj-7Jq"/>
+                            <constraint firstItem="9Rt-Fl-P5M" firstAttribute="trailing" secondItem="DDH-hm-jjQ" secondAttribute="trailing" constant="20" id="UZ4-3h-VZH"/>
                             <constraint firstItem="6o8-7d-o5P" firstAttribute="top" secondItem="TLb-jK-nBI" secondAttribute="bottom" constant="20" id="Upy-bZ-J2e"/>
+                            <constraint firstItem="RE1-xU-m0F" firstAttribute="top" secondItem="DDH-hm-jjQ" secondAttribute="bottom" constant="20" id="XjY-pD-Qqq"/>
                             <constraint firstItem="chx-uc-QoZ" firstAttribute="leading" secondItem="9Rt-Fl-P5M" secondAttribute="leading" constant="20" id="YOr-9I-nwq"/>
                             <constraint firstItem="9Rt-Fl-P5M" firstAttribute="trailing" secondItem="cIa-9H-efI" secondAttribute="trailing" constant="20" id="Yo2-nQ-cei"/>
                             <constraint firstItem="TLb-jK-nBI" firstAttribute="centerX" secondItem="C5j-Jc-uN8" secondAttribute="centerX" id="c6i-oY-GiN"/>
-                            <constraint firstItem="YwH-sS-6pE" firstAttribute="top" secondItem="tcF-Yb-xeZ" secondAttribute="bottom" constant="20" id="fXN-r0-7FB"/>
                             <constraint firstItem="7sm-lW-vyy" firstAttribute="leading" secondItem="9Rt-Fl-P5M" secondAttribute="leading" constant="20" id="fuJ-yV-M0Y"/>
+                            <constraint firstItem="RsG-hj-YmI" firstAttribute="top" secondItem="Ad4-va-1MZ" secondAttribute="bottom" constant="20" id="fxF-Op-Sny"/>
                             <constraint firstItem="9Rt-Fl-P5M" firstAttribute="trailing" secondItem="6o8-7d-o5P" secondAttribute="trailing" constant="20" id="ghg-xC-6vS"/>
                             <constraint firstItem="BMg-1E-svZ" firstAttribute="top" secondItem="wWT-jA-VIM" secondAttribute="bottom" constant="30" id="gsm-wd-Pca"/>
                             <constraint firstItem="chx-uc-QoZ" firstAttribute="top" secondItem="EbV-9f-HJQ" secondAttribute="bottom" constant="30" id="he9-PE-GZe"/>
-                            <constraint firstItem="9Rt-Fl-P5M" firstAttribute="trailing" secondItem="YwH-sS-6pE" secondAttribute="trailing" constant="20" id="hyA-UE-gpD"/>
                             <constraint firstItem="62K-1t-0T9" firstAttribute="top" secondItem="9Rt-Fl-P5M" secondAttribute="top" constant="20" id="iD2-Wp-agM"/>
-                            <constraint firstItem="tcF-Yb-xeZ" firstAttribute="top" secondItem="za3-FU-7WZ" secondAttribute="bottom" constant="20" id="iMn-To-XM4"/>
                             <constraint firstItem="TLb-jK-nBI" firstAttribute="top" secondItem="I5K-E0-l26" secondAttribute="bottom" constant="40" id="isc-km-X0w"/>
+                            <constraint firstItem="Ad4-va-1MZ" firstAttribute="top" secondItem="RE1-xU-m0F" secondAttribute="bottom" constant="20" id="j2P-Xp-Km5"/>
+                            <constraint firstItem="9Rt-Fl-P5M" firstAttribute="trailing" secondItem="RE1-xU-m0F" secondAttribute="trailing" constant="20" id="lnS-Kw-aJ8"/>
                             <constraint firstItem="BMg-1E-svZ" firstAttribute="leading" secondItem="9Rt-Fl-P5M" secondAttribute="leading" constant="20" id="mLk-4d-8jP"/>
                             <constraint firstItem="pZK-mD-QJn" firstAttribute="top" secondItem="chx-uc-QoZ" secondAttribute="bottom" constant="30" id="mRA-m4-Ouc"/>
                             <constraint firstItem="NGE-ii-XfE" firstAttribute="leading" secondItem="9Rt-Fl-P5M" secondAttribute="leading" constant="20" id="nAO-t2-OMu"/>
-                            <constraint firstItem="EbV-9f-HJQ" firstAttribute="top" secondItem="BMg-1E-svZ" secondAttribute="bottom" constant="30" id="nBN-fi-M6u"/>
+                            <constraint firstItem="EbV-9f-HJQ" firstAttribute="top" secondItem="vRH-JO-TZ7" secondAttribute="bottom" constant="30" id="nBN-fi-M6u"/>
                             <constraint firstItem="NGE-ii-XfE" firstAttribute="top" secondItem="jaO-Mp-Q2T" secondAttribute="bottom" constant="30" id="nL1-Ak-N4F"/>
                             <constraint firstItem="pZK-mD-QJn" firstAttribute="leading" secondItem="9Rt-Fl-P5M" secondAttribute="leading" constant="20" id="nRX-rC-wm0"/>
                             <constraint firstItem="jaO-Mp-Q2T" firstAttribute="leading" secondItem="9Rt-Fl-P5M" secondAttribute="leading" constant="20" id="peW-8d-3WQ"/>
                             <constraint firstItem="I5K-E0-l26" firstAttribute="top" secondItem="FuF-1i-uMf" secondAttribute="bottom" constant="20" id="q6b-IP-8tJ"/>
+                            <constraint firstItem="vRH-JO-TZ7" firstAttribute="top" secondItem="BMg-1E-svZ" secondAttribute="bottom" constant="30" id="rW8-yO-onY"/>
                             <constraint firstItem="wWT-jA-VIM" firstAttribute="leading" secondItem="9Rt-Fl-P5M" secondAttribute="leading" constant="20" id="rZx-CW-zPq"/>
                             <constraint firstItem="EbV-9f-HJQ" firstAttribute="leading" secondItem="9Rt-Fl-P5M" secondAttribute="leading" constant="20" id="sdQ-8z-X54"/>
-                            <constraint firstItem="9Rt-Fl-P5M" firstAttribute="trailing" secondItem="lxN-0a-oCZ" secondAttribute="trailing" constant="20" id="vbM-1v-v5Y"/>
+                            <constraint firstItem="g6O-9Y-o40" firstAttribute="top" secondItem="RsG-hj-YmI" secondAttribute="bottom" constant="20" id="uBJ-U3-78e"/>
                             <constraint firstItem="cIa-9H-efI" firstAttribute="top" secondItem="6o8-7d-o5P" secondAttribute="bottom" constant="20" id="vx4-Io-Z32"/>
                             <constraint firstItem="62K-1t-0T9" firstAttribute="centerX" secondItem="C5j-Jc-uN8" secondAttribute="centerX" id="yi4-rH-gYx"/>
                         </constraints>
@@ -178,7 +192,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rGN-vp-1ab" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="858" y="236"/>
+            <point key="canvasLocation" x="856.79999999999995" y="235.23238380809596"/>
         </scene>
         <!--Home-->
         <scene sceneID="8m0-cz-ShC">
@@ -188,104 +202,61 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzX-bL-4Kw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzX-bL-4Kw">
                                 <rect key="frame" x="60" y="125" width="90" height="90"/>
-                                <color key="backgroundColor" name="AccentLight"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="43f-QG-ZKc"/>
-                                    <constraint firstAttribute="width" constant="90" id="ZZd-sf-Cip"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
-                                <color key="tintColor" name="AccentDark"/>
-                                <state key="normal" title="American">
+                                <state key="normal" image="flag_us">
                                     <color key="titleColor" name="AccentDark"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXD-ag-Jbi">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WXD-ag-Jbi">
                                 <rect key="frame" x="225" y="125" width="90" height="90"/>
-                                <color key="backgroundColor" name="AccentLight"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="WvX-Zi-44O"/>
-                                    <constraint firstAttribute="width" constant="90" id="c5o-3J-i8q"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
-                                <color key="tintColor" name="AccentDark"/>
-                                <state key="normal" title="Chinese">
+                                <state key="normal" image="flag_china">
                                     <color key="titleColor" name="AccentDark"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Cd-Pq-sYw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Cd-Pq-sYw">
                                 <rect key="frame" x="60" y="230" width="90" height="90"/>
-                                <color key="backgroundColor" name="AccentLight"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="Kxn-gs-qhv"/>
-                                    <constraint firstAttribute="height" constant="90" id="j4N-mT-vwK"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
-                                <color key="tintColor" name="AccentDark"/>
-                                <state key="normal" title="Greek">
+                                <state key="normal" image="flag_france">
                                     <color key="titleColor" name="AccentDark"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jrc-gK-RK7">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jrc-gK-RK7">
                                 <rect key="frame" x="225" y="230" width="90" height="90"/>
-                                <color key="backgroundColor" name="AccentLight"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="DPw-Yg-CYc"/>
                                     <constraint firstAttribute="height" constant="90" id="htm-xq-pax"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
                                 <color key="tintColor" name="AccentDark"/>
-                                <state key="normal" title="Indian">
+                                <state key="normal" image="flag_greece">
                                     <color key="titleColor" name="AccentDark"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZR-6O-yZa">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WZR-6O-yZa">
                                 <rect key="frame" x="60" y="335" width="90" height="90"/>
-                                <color key="backgroundColor" name="AccentLight"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="NZ4-J4-2Eh"/>
-                                    <constraint firstAttribute="width" constant="90" id="YrD-tJ-mCw"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
                                 <color key="tintColor" name="AccentDark"/>
-                                <state key="normal" title="Italian">
+                                <state key="normal" image="flag_india">
                                     <color key="titleColor" name="AccentDark"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qm2-zF-vsU">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qm2-zF-vsU">
                                 <rect key="frame" x="225" y="335" width="90" height="90"/>
-                                <color key="backgroundColor" name="AccentLight"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="6Uo-le-FPI"/>
-                                    <constraint firstAttribute="width" constant="90" id="yJq-zt-UYG"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
                                 <color key="tintColor" name="AccentDark"/>
-                                <state key="normal" title="Japanese">
+                                <state key="normal" image="flag_italy">
                                     <color key="titleColor" name="AccentDark"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4c-UC-kIe">
-                                <rect key="frame" x="142.5" y="440" width="90" height="90"/>
-                                <color key="backgroundColor" name="AccentLight"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="90r-3U-BSf"/>
-                                    <constraint firstAttribute="width" constant="90" id="t4o-8r-UAh"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
-                                <color key="tintColor" name="AccentDark"/>
-                                <state key="normal" title="Mexican">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4c-UC-kIe">
+                                <rect key="frame" x="60" y="440" width="90" height="90"/>
+                                <state key="normal" image="flag_japan">
                                     <color key="titleColor" name="AccentDark"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIv-jx-r3q">
-                                <rect key="frame" x="147.5" y="540" width="80" height="30"/>
+                                <rect key="frame" x="143.5" y="540" width="88" height="30"/>
                                 <color key="backgroundColor" name="AccentDark"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="2PK-Bd-C88"/>
                                     <constraint firstAttribute="height" constant="30" id="Kwq-za-YEp"/>
                                 </constraints>
+                                <inset key="contentEdgeInsets" minX="20" minY="0.0" maxX="20" maxY="0.0"/>
                                 <state key="normal" title="Decide">
                                     <color key="titleColor" name="AccentLight"/>
                                 </state>
@@ -308,6 +279,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i5Q-2Z-aR1">
+                                <rect key="frame" x="225" y="440" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" name="AccentDark"/>
+                                <state key="normal" image="flag_us">
+                                    <color key="titleColor" name="AccentDark"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="e9T-Ta-sRR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -318,7 +297,6 @@
                             <constraint firstItem="2Cd-Pq-sYw" firstAttribute="leading" secondItem="e9T-Ta-sRR" secondAttribute="leading" constant="60" id="GlF-jZ-0nU"/>
                             <constraint firstItem="dzX-bL-4Kw" firstAttribute="leading" secondItem="e9T-Ta-sRR" secondAttribute="leading" constant="60" id="HCR-4V-eT2"/>
                             <constraint firstItem="e9T-Ta-sRR" firstAttribute="trailing" secondItem="Jrc-gK-RK7" secondAttribute="trailing" constant="60" id="HHP-IM-zeE"/>
-                            <constraint firstItem="s4c-UC-kIe" firstAttribute="centerX" secondItem="1t6-Fm-ote" secondAttribute="centerX" id="JpW-HM-2ii"/>
                             <constraint firstItem="dzX-bL-4Kw" firstAttribute="top" secondItem="vM9-dS-nXr" secondAttribute="bottom" constant="20" id="UWp-dE-sJz"/>
                             <constraint firstItem="e9T-Ta-sRR" firstAttribute="trailing" secondItem="qm2-zF-vsU" secondAttribute="trailing" constant="60" id="Xzq-uJ-Hgq"/>
                             <constraint firstItem="0PZ-uQ-6T6" firstAttribute="top" secondItem="y4Y-Ep-yKW" secondAttribute="bottom" constant="10" id="cIb-ru-2S2"/>
@@ -333,6 +311,7 @@
                             <constraint firstItem="y4Y-Ep-yKW" firstAttribute="top" secondItem="e9T-Ta-sRR" secondAttribute="top" constant="20" id="uG2-0f-fHc"/>
                             <constraint firstItem="WZR-6O-yZa" firstAttribute="leading" secondItem="e9T-Ta-sRR" secondAttribute="leading" constant="60" id="xXT-TQ-4ZV"/>
                             <constraint firstItem="WZR-6O-yZa" firstAttribute="top" secondItem="2Cd-Pq-sYw" secondAttribute="bottom" constant="15" id="yk3-pa-e8X"/>
+                            <constraint firstItem="s4c-UC-kIe" firstAttribute="leading" secondItem="e9T-Ta-sRR" secondAttribute="leading" constant="60" id="zRh-Ck-0OW"/>
                             <constraint firstItem="RIv-jx-r3q" firstAttribute="top" secondItem="s4c-UC-kIe" secondAttribute="bottom" constant="10" id="zaD-Br-TS6"/>
                         </constraints>
                     </view>
@@ -367,6 +346,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="flag_china" width="90" height="90"/>
+        <image name="flag_france" width="90" height="90"/>
+        <image name="flag_greece" width="90" height="90"/>
+        <image name="flag_india" width="90" height="90"/>
+        <image name="flag_italy" width="90" height="90"/>
+        <image name="flag_japan" width="90" height="90"/>
+        <image name="flag_us" width="90" height="90"/>
         <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <namedColor name="AccentColor">
