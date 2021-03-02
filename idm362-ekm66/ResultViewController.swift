@@ -9,6 +9,11 @@ import UIKit
 
 class ResultViewController: UIViewController {
 
+    @IBOutlet weak var cuisineImage: UIImageView!
+    @IBOutlet weak var cuisineLabel: UILabel!
+    
+    var cuisineType:String = "Chinese"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

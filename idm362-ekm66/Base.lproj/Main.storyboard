@@ -3,6 +3,7 @@
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -230,6 +231,9 @@
                                                         <integer key="value" value="10"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <segue destination="4OJ-2A-i81" kind="show" identifier="showResult" id="c2B-U7-wVD"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -280,7 +284,10 @@
                             <constraint firstItem="P6P-Zd-wFU" firstAttribute="trailing" secondItem="x68-7F-qih" secondAttribute="trailing" id="uTw-sa-EJG"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" selectedImage="house" catalog="system" id="gHe-Nn-lkM"/>
+                    <tabBarItem key="tabBarItem" title="Home" id="gHe-Nn-lkM">
+                        <imageReference key="image" image="home" symbolScale="medium" renderingMode="original"/>
+                        <color key="badgeColor" name="AccentColor"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="OptionAmerican" destination="sQM-cr-H6l" id="fet-5V-f19"/>
                         <outlet property="OptionChinese" destination="Jyf-yp-J6d" id="M6t-rz-J9U"/>
@@ -301,37 +308,37 @@
             <objects>
                 <viewController id="4OJ-2A-i81" customClass="ResultViewController" customModule="idm362_ekm66" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TTt-q7-FDw">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOOKS LIKE DINNER IS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCg-Gd-eXL">
-                                <rect key="frame" x="20" y="92" width="335.5" height="45"/>
+                                <rect key="frame" x="20" y="84" width="335.5" height="45"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="32"/>
-                                <color key="textColor" name="AccentColor"/>
+                                <color key="textColor" name="BiteDark"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flag_china" translatesAutoresizingMaskIntoConstraints="NO" id="qLh-TJ-u24">
-                                <rect key="frame" x="87.5" y="167" width="200" height="200"/>
+                                <rect key="frame" x="87.5" y="159" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="OV4-aO-tAX"/>
                                     <constraint firstAttribute="height" constant="200" id="pLv-UW-QRC"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chinese!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3q-SG-zfS">
-                                <rect key="frame" x="133.5" y="387" width="108.5" height="34"/>
+                                <rect key="frame" x="133.5" y="379" width="108.5" height="34"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x79-3q-5PY">
-                                <rect key="frame" x="122.5" y="441" width="130" height="48"/>
+                                <rect key="frame" x="87.5" y="433" width="200" height="48"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="J6i-3B-3M6"/>
-                                    <constraint firstAttribute="width" constant="130" id="j5z-1i-kWw"/>
+                                    <constraint firstAttribute="width" constant="200" id="j5z-1i-kWw"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
-                                <state key="normal" title="Find me food!">
+                                <state key="normal" title="Show me places!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -341,14 +348,14 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yns-Vw-uVN">
-                                <rect key="frame" x="87.5" y="509" width="200" height="48"/>
-                                <color key="backgroundColor" name="AccentColor"/>
+                                <rect key="frame" x="87.5" y="501" width="200" height="48"/>
+                                <color key="backgroundColor" name="BiteDark"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="Zbp-K0-kfD"/>
                                     <constraint firstAttribute="width" constant="200" id="jXp-Vt-aaS"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="16"/>
-                                <state key="normal" title="Pick something else">
+                                <state key="normal" title="Hmm... Not feeling it">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -356,10 +363,6 @@
                                         <integer key="value" value="10"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7tC-fy-WCB">
-                                <rect key="frame" x="20" y="20" width="13" height="22"/>
-                                <state key="normal" image="chevron.left" catalog="system"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tFu-Jt-VWB"/>
@@ -369,16 +372,19 @@
                             <constraint firstItem="qLh-TJ-u24" firstAttribute="top" secondItem="VCg-Gd-eXL" secondAttribute="bottom" constant="30" id="3VJ-1B-Vpv"/>
                             <constraint firstItem="I3q-SG-zfS" firstAttribute="top" secondItem="qLh-TJ-u24" secondAttribute="bottom" constant="20" id="A23-df-qYN"/>
                             <constraint firstItem="I3q-SG-zfS" firstAttribute="centerX" secondItem="TTt-q7-FDw" secondAttribute="centerX" id="Bxw-vU-5lz"/>
-                            <constraint firstItem="7tC-fy-WCB" firstAttribute="top" secondItem="tFu-Jt-VWB" secondAttribute="top" constant="20" id="JbS-2p-MQH"/>
                             <constraint firstItem="VCg-Gd-eXL" firstAttribute="centerX" secondItem="TTt-q7-FDw" secondAttribute="centerX" id="Jui-zu-kTb"/>
                             <constraint firstItem="x79-3q-5PY" firstAttribute="top" secondItem="I3q-SG-zfS" secondAttribute="bottom" constant="20" id="LG8-NW-vmn"/>
                             <constraint firstItem="qLh-TJ-u24" firstAttribute="centerX" secondItem="TTt-q7-FDw" secondAttribute="centerX" id="V89-L9-aSs"/>
                             <constraint firstItem="yns-Vw-uVN" firstAttribute="top" secondItem="x79-3q-5PY" secondAttribute="bottom" constant="20" id="lng-Xk-HHQ"/>
-                            <constraint firstItem="7tC-fy-WCB" firstAttribute="leading" secondItem="tFu-Jt-VWB" secondAttribute="leading" constant="20" id="o10-GX-TOG"/>
                             <constraint firstItem="qLh-TJ-u24" firstAttribute="centerY" secondItem="TTt-q7-FDw" secondAttribute="centerY" multiplier="0.8" id="wiP-Ps-9hH"/>
                             <constraint firstItem="yns-Vw-uVN" firstAttribute="centerX" secondItem="TTt-q7-FDw" secondAttribute="centerX" id="zoO-tc-Laj"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="eJI-ZK-8du"/>
+                    <connections>
+                        <outlet property="cuisineImage" destination="qLh-TJ-u24" id="nzw-nH-JZf"/>
+                        <outlet property="cuisineLabel" destination="I3q-SG-zfS" id="v8D-GJ-CAT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AQn-MR-zu8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -601,7 +607,10 @@
                             <constraint firstItem="nTM-WJ-obS" firstAttribute="bottom" secondItem="MdT-gW-5Vk" secondAttribute="bottom" id="wA2-Q5-agV"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" selectedImage="gearshape" catalog="system" id="Xhh-ni-2f2"/>
+                    <tabBarItem key="tabBarItem" title="Settings" id="Xhh-ni-2f2">
+                        <imageReference key="image" image="settings" symbolScale="medium" renderingMode="original"/>
+                        <color key="badgeColor" name="AccentColor"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zm2-47-Icm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -609,7 +618,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="chevron.left" catalog="system" width="96" height="128"/>
         <image name="flag_china" width="90" height="90"/>
         <image name="flag_france" width="90" height="90"/>
         <image name="flag_greece" width="90" height="90"/>
@@ -618,10 +626,10 @@
         <image name="flag_japan" width="90" height="90"/>
         <image name="flag_mexico" width="90" height="90"/>
         <image name="flag_us" width="90" height="90"/>
-        <image name="gearshape" catalog="system" width="128" height="121"/>
-        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="home" width="15" height="14"/>
+        <image name="settings" width="13" height="14"/>
         <namedColor name="AccentColor">
-            <color red="0.0" green="0.41568627450980389" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.41600000858306885" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="AccentDarker">
             <color red="0.0" green="0.29411764705882354" blue="0.82745098039215681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
