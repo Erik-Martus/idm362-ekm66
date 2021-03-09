@@ -55,7 +55,6 @@ class ViewController: UIViewController {
             OptionAmerican.setTitleColor(UIColor.label, for: .normal)
             selectedOptions["American"] = false
         }
-        print(selectedOptions)
     }
     
     @IBAction func TapChinese(_ sender: Any) {
@@ -69,7 +68,6 @@ class ViewController: UIViewController {
             OptionChinese.setTitleColor(UIColor.label, for: .normal)
             selectedOptions["Chinese"] = false
         }
-        print(selectedOptions)
     }
     
     @IBAction func TapFrench(_ sender: Any) {
@@ -83,7 +81,6 @@ class ViewController: UIViewController {
             OptionFrench.setTitleColor(UIColor.label, for: .normal)
             selectedOptions["French"] = false
         }
-        print(selectedOptions)
     }
     
     @IBAction func TapGreek(_ sender: Any) {
@@ -97,7 +94,6 @@ class ViewController: UIViewController {
             OptionGreek.setTitleColor(UIColor.label, for: .normal)
             selectedOptions["Greek"] = false
         }
-        print(selectedOptions)
     }
     
     
@@ -112,7 +108,6 @@ class ViewController: UIViewController {
             OptionIndian.setTitleColor(UIColor.label, for: .normal)
             selectedOptions["Indian"] = false
         }
-        print(selectedOptions)
     }
     
     @IBAction func TapItalian(_ sender: Any) {
@@ -126,7 +121,6 @@ class ViewController: UIViewController {
             OptionItalian.setTitleColor(UIColor.label, for: .normal)
             selectedOptions["Italian"] = false
         }
-        print(selectedOptions)
     }
     
     @IBAction func TapJapanese(_ sender: Any) {
@@ -140,7 +134,6 @@ class ViewController: UIViewController {
             OptionJapanese.setTitleColor(UIColor.label, for: .normal)
             selectedOptions["Japanese"] = false
         }
-        print(selectedOptions)
     }
     
     @IBAction func TapMexican(_ sender: Any) {
@@ -154,7 +147,32 @@ class ViewController: UIViewController {
             OptionMexican.setTitleColor(UIColor.label, for: .normal)
             selectedOptions["Mexican"] = false
         }
-        print(selectedOptions)
+    }
+    
+    var selected = [String]()
+    var selectedCuisine = ""
+    
+    @IBAction func findFoodBtn(_ sender: Any) {
+        for (key, value) in selectedOptions {
+            if value == true {
+                selected.append(key)
+            }
+        }
+        
+        selectedCuisine = selected.randomElement()!
+    }
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+        
+        if segue.identifier == "showResult" {
+            let resultObj = segue.destination as! ResultViewController
+            resultObj.cuisineType = selectedCuisine
+            resultObj.selected = selected
+        }
     }
     
 } // End ViewController
