@@ -6,6 +6,8 @@
 //
 
 import UIKit
+// Add audio and video library
+import AVFoundation
 
 class ResultViewController: UIViewController {
 
@@ -16,14 +18,28 @@ class ResultViewController: UIViewController {
     
     var selected = [String]()
     
+    var audPlayer = AVAudioPlayer()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         print(selected)
         updateInfo(cuisine: cuisineType)
+        let soundTada = Bundle.main.path(forResource: "sounds/tada", ofType: "mp3")
+        
+        do {
+            audPlayer = try
+            AVAudioPlayer(contentsOf: URL(fileURLWithPath: soundTada!))
+            audPlayer.prepareToPlay()
+            print("Sound file loaded and prepped")
+            audPlayer.play()
+        } catch {
+            print(error)
+        }
     }
     
+    // Change flag image and text to match selected cuisine
     func updateInfo(cuisine: String) {
         cuisineLabel.text = "\(cuisine)!"
         
@@ -49,6 +65,7 @@ class ResultViewController: UIViewController {
         }
     }
     
+    // btn: "Show me places!"
     @IBAction func findRestBtn(_ sender: Any) {
         let cuisine:String = cuisineLabel.text!
         print(cuisine.dropLast())
@@ -60,8 +77,16 @@ class ResultViewController: UIViewController {
         }
     }
     
+    // btn: "Hmm... Not feeling it"
     @IBAction func rerollBtn(_ sender: Any) {
         updateInfo(cuisine: selected.randomElement()!)
+        
+        // stop audio if playing and restart from beginning
+        if (audPlayer.isPlaying) {
+            audPlayer.stop()
+        }
+        audPlayer.currentTime = 0
+        audPlayer.play()
     }
     
     /*

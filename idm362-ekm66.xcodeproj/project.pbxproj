@@ -20,6 +20,7 @@
 		49B5189725B72F6700A822CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B5189525B72F6700A822CA /* LaunchScreen.storyboard */; };
 		49B518A225B72F6700A822CA /* idm362_ekm66Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B518A125B72F6700A822CA /* idm362_ekm66Tests.swift */; };
 		49B518AD25B72F6700A822CA /* idm362_ekm66UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B518AC25B72F6700A822CA /* idm362_ekm66UITests.swift */; };
+		49BA026F260578470073A550 /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = 49BA026E260578470073A550 /* sounds */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		49B518A825B72F6700A822CA /* idm362-ekm66UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "idm362-ekm66UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B518AC25B72F6700A822CA /* idm362_ekm66UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = idm362_ekm66UITests.swift; sourceTree = "<group>"; };
 		49B518AE25B72F6700A822CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49BA026E260578470073A550 /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sounds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				49B518A025B72F6700A822CA /* idm362-ekm66Tests */,
 				49B518AB25B72F6700A822CA /* idm362-ekm66UITests */,
 				49B5188825B72F6600A822CA /* Products */,
+				49BA026E260578470073A550 /* sounds */,
 			);
 			sourceTree = "<group>";
 		};
@@ -256,6 +259,7 @@
 			files = (
 				4949536F25D23B2E0099F0A6 /* Poppins-SemiBold.ttf in Resources */,
 				4949536E25D23B2E0099F0A6 /* Poppins-ExtraBold.ttf in Resources */,
+				49BA026F260578470073A550 /* sounds in Resources */,
 				49B5189725B72F6700A822CA /* LaunchScreen.storyboard in Resources */,
 				4949537025D23B2E0099F0A6 /* Poppins-Regular.ttf in Resources */,
 				49B5189425B72F6700A822CA /* Assets.xcassets in Resources */,
